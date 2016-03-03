@@ -1,5 +1,5 @@
-group 'io.humana.burr'
-version '1.0-SNAPSHOT'
+group 'io.humana.burr.views'
+version '0.1'
 
 buildscript {
     ext {
