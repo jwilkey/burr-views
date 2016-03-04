@@ -50,3 +50,7 @@ dependencies {
     testCompile 'com.codeborne:selenide:3.0'
     testCompile 'com.codeborne:phantomjsdriver:1.2.1'
 }
+
+springBoot {
+    mainClass = "workaround.gradle.application.plugin.needs.main.class"
+}
