@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/burr-views.iml" filepath="$PROJECT_DIR$/burr-views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/burr.views.iml" filepath="$PROJECT_DIR$/burr.views.iml" />
     </modules>
   </component>
 </project>
