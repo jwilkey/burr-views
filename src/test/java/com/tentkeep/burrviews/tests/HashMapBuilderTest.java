@@ -1,6 +1,6 @@
-package io.humana.burr.views.tests;
+package com.tentkeep.burrviews.tests;
 
-import io.humana.burr.views.HashMapBuilder;
+import com.tentkeep.burrviews.HashMapBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

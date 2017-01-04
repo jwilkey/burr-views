@@ -1,4 +1,4 @@
-package io.humana.burr.views.tests;
+package com.tentkeep.burrviews.tests;
 
 import java.util.UUID;
 

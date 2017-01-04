@@ -1,17 +1,13 @@
-package io.humana.burr.views.tests;
+package com.tentkeep.burrviews.tests;
 
-import io.humana.burr.views.FragmentRegistry;
-import io.humana.burr.views.ThymeleafViewProvider;
-import org.apache.commons.logging.LogFactory;
+import com.tentkeep.burrviews.FragmentRegistry;
+import com.tentkeep.burrviews.ThymeleafViewProvider;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.objenesis.ObjenesisStd;
-import org.slf4j.LoggerFactory;
-import org.slf4j.impl.StaticLoggerBinder;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.mock.web.MockServletContext;
