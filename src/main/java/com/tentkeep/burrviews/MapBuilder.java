@@ -1,4 +1,4 @@
-package io.humana.burr.views;
+package com.tentkeep.burrviews;
 
 import java.util.Map;
 
