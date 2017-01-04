@@ -12,7 +12,7 @@ plugins {
 }
 
 group = 'com.tentkeep'
-version = '0.2.0'
+def versionString = '0.2.0'
 
 allprojects {
     repositories {
@@ -63,7 +63,7 @@ bintray {
 
         labels = ['spring boot', 'thymeleaf']
         version {
-            name = version
+            name = versionString
             desc = 'Convenience classes for Java Spring Boot projects using Thymeleaf'
             released  = new Date()
         }
@@ -76,7 +76,7 @@ publishing {
             from components.java
             groupId 'com.tentkeep'
             artifactId 'burr-views'
-            version version
+            version versionString
             artifact sourcesJar {
                 classifier 'sources'
             }
